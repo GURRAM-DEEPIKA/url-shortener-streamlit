@@ -6,7 +6,7 @@ import qrcode
 import os
 import pandas as pd
 
-BASE_URL = "http://10.42.129.189:8501/?code="
+BASE_URL = "https://url-shortener-app-jakqtyechmkpvv6wgyx5gz.streamlit.app/"
 
 if not os.path.exists("qrcodes"):
     os.makedirs("qrcodes")
